@@ -1,0 +1,260 @@
+/* --- navbar.css --- */
+/* Toggle menu*/
+.hidden {
+  display: none !important;
+}
+
+/* Navigation bar */
+#navbar {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  max-width: 1091px; /* max width from figma */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Left section: logo and brand name */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-left svg {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.nav-left .brand-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+/* Center section: middle content */
+.nav-center-gradient-border {
+  border: 1.5px solid;
+  display: none;
+  border-radius: 290px;
+  background: linear-gradient(269.57deg, #7a87fb 0.72%, #ffd49c 99.22%);
+  padding: 1px;
+}
+
+.nav-center-inner {
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 6px 32px 6px 6px;
+  width: 418;
+  height: 48;
+  opacity: 1;
+  gap: 40px;
+  border-radius: 290px;
+  border-width: 1.5px;
+}
+
+.home-button {
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+  border-radius: 40px;
+  padding: 8px 16px 8px 16px;
+  gap: 6px;
+  color: #fff;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+  width: 52;
+  height: 36;
+  opacity: 1;
+}
+
+.home-button:hover {
+  background-color: #374151;
+}
+
+.home-button svg {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #d1d5db;
+}
+
+/* Right section: hire-me and profile */
+#nav-right {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+.hire-me-wrapper {
+  width: 103px;
+  height: 52px;
+  border-radius: 40px;
+  background: linear-gradient(269.57deg, #7a87fb 0.72%, #ffd49c 99.22%);
+  padding: 1px;
+  border: 1px solid;
+  flex-shrink: 0;
+}
+.hire-me-button {
+  padding: 14px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: Medium;
+  letter-spacing: 0px;
+  line-height: 100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #7a87fb 0%, #ffd49c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  color: #000;
+}
+
+.hire-me-button:hover,
+.profile-icon-inner:hover {
+  opacity: 0.8;
+}
+
+.profile-icon-gradient-border {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: linear-gradient(269.57deg, #7a87fb 0.72%, #ffd49c 99.22%);
+  padding: 1px;
+  border: 1px solid;
+  flex-shrink: 0;
+}
+
+.profile-icon-inner {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #7a87fb 0%, #ffd49c 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-icon-inner svg {
+  height: 20px;
+  width: 20px;
+  color: black;
+}
+
+/* Mobile menu button (hamburger)*/
+#mobile-menu-btn {
+  display: block;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#mobile-menu-btn svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Mobile menu (drop drown)*/
+#mobile-menu {
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.8);
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 50;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  height: 100vb;
+}
+.mobile-menu-child {
+  background-color: #111;
+  margin-top: -20px;
+}
+#mobile-menu a {
+  display: block;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#mobile-menu a:hover {
+  background-color: #1f2937;
+}
+
+.mobile-menu-divider {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #374151;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mobile-menu-divider .hire-me-button {
+  width: 100%;
+  max-width: none;
+}
+
+.mobile-menu-divider .hire-me-wrapper {
+  width: 100%;
+  max-width: none;
+}
+
+.mobile-profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.mobile-profile-link svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}

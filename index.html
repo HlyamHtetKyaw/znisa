@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Znisa</title>
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body class="bg-black">
+    <!-- Navigation bar -->
+    <nav id="navbar">
+      <!-- Left section: logo and brand name -->
+      <div class="nav-left">
+        <!-- Logo svg-->
+        <svg viewBox="0 0 44 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient
+              id="paint0_linear_1_48"
+              x1="2.5"
+              y1="26"
+              x2="17.9375"
+              y2="26"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#7A87FB" />
+              <stop offset="1" stop-color="#FFD49C" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_1_48"
+              x1="19.2744"
+              y1="19.7805"
+              x2="29.103"
+              y2="19.7805"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#7A87FB" />
+              <stop offset="1" stop-color="#FFD49C" />
+            </linearGradient>
+            <linearGradient
+              id="paint2_linear_1_48"
+              x1="19.2744"
+              y1="35.5378"
+              x2="41.5002"
+              y2="35.5378"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#7A87FB" />
+              <stop offset="1" stop-color="#FFD49C" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M17.9375 41C9.41935 41 2.5 34.101 2.5 25.608V11C11.0181 11 17.9375 17.899 17.9375 26.392V41Z"
+            fill="url(#paint0_linear_1_48)"
+          />
+          <path
+            d="M19.2744 28.561V20.7997C19.2744 15.3902 23.6776 11 29.103 11V18.7613C29.103 24.1707 24.6998 28.561 19.2744 28.561Z"
+            fill="url(#paint1_linear_1_48)"
+          />
+          <path
+            d="M41.5002 40.9995H30.2301C24.1756 40.9995 19.2744 36.1128 19.2744 30.0762H30.5446C36.599 30.0762 41.5002 34.9629 41.5002 40.9995Z"
+            fill="url(#paint2_linear_1_48)"
+          />
+        </svg>
+        <!-- Brand name -->
+        <a href="#" class="brand-name">znisa</a>
+      </div>
+
+      <!-- Center section: middle content -->
+      <div class="nav-center-gradient-border">
+        <div class="nav-center-inner">
+          <!-- Home button -->
+          <button class="home-button">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_58)">
+                <path
+                  d="M1.66667 10.17C1.66667 8.26299 1.66667 7.30948 2.09934 6.51903C2.53201 5.72859 3.32246 5.23801 4.90337 4.25685L6.57003 3.22247C8.24116 2.18532 9.07673 1.66675 10 1.66675C10.9233 1.66675 11.7588 2.18532 13.43 3.22247L15.0966 4.25685C16.6776 5.23801 17.468 5.72859 17.9007 6.51903C18.3333 7.30948 18.3333 8.26299 18.3333 10.17V11.4375C18.3333 14.6883 18.3333 16.3137 17.357 17.3235C16.3807 18.3334 14.8094 18.3334 11.6667 18.3334H8.33334C5.19064 18.3334 3.61929 18.3334 2.64298 17.3235C1.66667 16.3137 1.66667 14.6883 1.66667 11.4375V10.17Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M10 12.5L10 15"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_58">
+                  <rect width="20" height="20" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+
+          <!-- Navigation links -->
+          <div class="nav-links">
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=hlyamhtet.dev@gmail.com"
+              target="_blank"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right section: login and profile -->
+      <div id="nav-right">
+        <!-- Hire me button -->
+        <div class="hire-me-wrapper">
+          <button class="hire-me-button">Hire me</button>
+        </div>
+        <!-- Profile icon -->
+        <div class="profile-icon-gradient-border">
+          <div class="profile-icon-inner">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!--  Mobile menu button (hamburger)-->
+      <button id="mobile-menu-btn">
+        <!-- Menu icon -->
+        <svg
+          id="menu-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+        <!-- Close icon -->
+        <svg
+          id="close-icon"
+          class="hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+
+      <!-- Mobile menu (dropdown)-->
+      <div id="mobile-menu" class="hidden">
+        <div class="mobile-menu-child">
+          <a href="#">About</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact me</a>
+
+          <div class="mobile-menu-divider">
+            <div class="hire-me-wrapper">
+              <button class="hire-me-button">Hire me</button>
+            </div>
+            <a href="#" class="mobile-profile-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+              <span>Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="hero-top-section">
+        <div class="fullscreen-grid">
+          <!-- Merged center 3×4 area -->
+          <div class="center-merged">
+            <div class="center-content">
+              <h1>I design and build clean websites</h1>
+              <p>
+                Write anything here something about yourself to showcase what
+                actually you doing or targeting etc.
+              </p>
+
+              <div class="hire-me-wrapper">
+                <button class="hire-me-button">Hire me</button>
+              </div>
+            </div>
+
+            <!-- SVG placed EXACTLY in the middle -->
+            <div class="top-right-svg">
+              <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.5 31C15.469 22.4501 8.54135 15.5287 0 15.5287C8.56041 15.5287 15.5 8.57619 15.5 0C15.5309 8.54988 22.4586 15.4713 31 15.4713C22.4394 15.4713 15.5 22.4238 15.5 31Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="bottom-left-svg">
+              <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15.5 31C15.469 22.4501 8.54135 15.5287 0 15.5287C8.56041 15.5287 15.5 8.57619 15.5 0C15.5309 8.54988 22.4586 15.4713 31 15.4713C22.4394 15.4713 15.5 22.4238 15.5 31Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- These .grid-cell divs will be added by JS -->
+        </div>
+        <div class="hero-footer">
+          <span> Framer </span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1_74_footer_1)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                fill="url(#paint0_linear_1_74_footer_1)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_74_footer_1"
+                x1="0"
+                y1="12"
+                x2="24"
+                y2="12"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+              <clipPath id="clip0_1_74_footer_1">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <span> Webflow </span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1_74_footer_2)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                fill="url(#paint0_linear_1_74_footer_2)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_74_footer_2"
+                x1="0"
+                y1="12"
+                x2="24"
+                y2="12"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+              <clipPath id="clip0_1_74_footer_2">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <span> Figma </span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1_74_footer_3)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                fill="url(#paint0_linear_1_74_footer_3)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_74_footer_3"
+                x1="0"
+                y1="12"
+                x2="24"
+                y2="12"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+              <clipPath id="clip0_1_74_footer_3">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <span> Notion </span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1_74_footer_4)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.8572 0H11.1429V9.93067L4.12081 2.90862L2.90863 4.12081L9.93067 11.1429H0V12.8572H9.93066L2.90863 19.8792L4.12081 21.0913L11.1429 14.0693V24H12.8572V14.0693L19.8792 21.0913L21.0913 19.8792L14.0693 12.8572H24V11.1429H14.0693L21.0913 4.1208L19.8792 2.90862L12.8572 9.93066V0Z"
+                fill="url(#paint0_linear_1_74_footer_4)"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_74_footer_4"
+                x1="0"
+                y1="12"
+                x2="24"
+                y2="12"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+              <clipPath id="clip0_1_74_footer_4">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Process Section -->
+      <section id="process-section">
+        <h2>
+          My process to design
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.5 36C15.469 27.4501 8.54135 20.5287 0 20.5287C8.56041 20.5287 15.5 13.5762 15.5 5C15.5309 13.5499 22.4586 20.4713 31 20.4713C22.4394 20.4713 15.5 27.4238 15.5 36Z"
+              fill="white"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M28.5 15C28.485 10.863 25.1329 7.5139 21 7.5139C25.1421 7.5139 28.5 4.14977 28.5 0C28.5149 4.13704 31.8671 7.4861 36 7.4861C31.8578 7.4861 28.5 10.8502 28.5 15Z"
+              fill="white"
+            />
+          </svg>
+        </h2>
+        <div class="process-list">
+          <!-- Step 1 -->
+          <div class="process-item">
+            <div class="step-number-circle">1</div>
+            <div class="step-content">
+              <svg
+                width="54"
+                height="56"
+                viewBox="0 0 54 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M53.8958 17.3507C51.432 11.3596 46.9672 6.40809 41.2619 3.33988C35.5567 0.271662 28.964 -0.723412 22.6074 0.524199C16.2507 1.77181 10.5233 5.18492 6.40098 10.182C2.27869 15.179 0.0165768 21.4508 9.0676e-05 27.9287C-0.0163955 34.4067 2.21376 40.6899 6.31057 45.7079C10.4074 50.7258 16.1174 54.168 22.4676 55.448C28.8178 56.7279 35.4154 55.7664 41.1362 52.7273C46.857 49.6882 51.347 44.7595 53.8413 38.7809L28 28L53.8958 17.3507Z"
+                  fill="url(#paint0_linear_1_93)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1_93"
+                    x1="55.7769"
+                    y1="24.3575"
+                    x2="0.201696"
+                    y2="24.7785"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#7A87FB" />
+                    <stop offset="1" stop-color="#FFD49C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="step-container">
+                <h3>Step 1: Product design Research</h3>
+                <p>
+                  This initial step involves a systematic and thorough
+                  exploration of the market landscape, user needs, and existing
+                  solutions.
+                </p>
+                <div class="examples-button-wrapper">
+                  <button class="examples-button">See Examples</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-item">
+            <div class="step-number-circle">2</div>
+            <div class="step-content">
+              <svg
+                width="56"
+                height="55"
+                viewBox="0 0 56 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M39.99 53.303C45.844 50.5291 50.555 45.8112 53.3205 39.9532C56.0859 34.0951 56.7346 27.4595 55.156 21.1768C53.5774 14.8942 49.8692 9.35321 44.6633 5.49809C39.4573 1.64297 33.0757 -0.287799 26.6058 0.0347661C20.1359 0.357331 13.978 2.91327 9.18131 7.26709C4.38464 11.6209 1.24598 17.5032 0.300126 23.9117C-0.645723 30.3203 0.659757 36.8585 3.99413 42.4124C7.3285 47.9663 12.4855 52.1922 18.5863 54.3701L28.0001 28L39.99 53.303Z"
+                  fill="url(#paint0_linear_1_103)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1_103"
+                    x1="33.0913"
+                    y1="55.5483"
+                    x2="29.7622"
+                    y2="0.0712262"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#7A87FB" />
+                    <stop offset="1" stop-color="#FFD49C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="step-container">
+                <h3>Step 2: UI design in figma</h3>
+                <p>
+                  This initial step involves a systematic and thorough
+                  exploration of the market landscape, user needs, and existing
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-item">
+            <div class="step-number-circle">3</div>
+            <div class="step-content">
+              <svg
+                width="55"
+                height="56"
+                viewBox="0 0 55 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M-8.95664e-06 36.0674C1.86643 42.2707 5.82601 47.6349 11.2041 51.246C16.5822 54.8571 23.046 56.4917 29.4941 55.8713C35.9423 55.251 41.9759 52.414 46.5668 47.8437C51.1578 43.2735 54.022 37.2528 54.6715 30.8075C55.321 24.3622 53.7156 17.8911 50.1289 12.4967C46.5421 7.10238 41.1959 3.11859 35.0011 1.22414C28.8064 -0.670318 22.1464 -0.358216 16.156 2.10725C10.1655 4.57273 5.2153 9.03903 2.14872 14.7452L26.8126 28L-8.95664e-06 36.0674Z"
+                  fill="url(#paint0_linear_1_114)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_1_114"
+                    x1="7.55207"
+                    y1="48.3435"
+                    x2="50.4183"
+                    y2="12.9702"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#7A87FB" />
+                    <stop offset="1" stop-color="#FFD49C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="step3-container">
+                <h3>Step 3: No-code develop in webflow</h3>
+                <p>
+                  This initial step involves a systematic and thorough
+                  exploration of the market landscape, user needs, and existing
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section-->
+      <section id="features-section">
+        <h2>
+          Some Featured projects
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.5 36C15.469 27.4501 8.54135 20.5287 0 20.5287C8.56041 20.5287 15.5 13.5762 15.5 5C15.5309 13.5499 22.4586 20.4713 31 20.4713C22.4394 20.4713 15.5 27.4238 15.5 36Z"
+              fill="white"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M28.5 15C28.485 10.863 25.1329 7.5139 21 7.5139C25.1421 7.5139 28.5 4.14977 28.5 0C28.5149 4.13704 31.8671 7.4861 36 7.4861C31.8578 7.4861 28.5 10.8502 28.5 15Z"
+              fill="white"
+            />
+          </svg>
+        </h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="gradient-box"></div>
+            <div class="project-content">
+              <div class="project-number-circle-small"><span>1</span></div>
+              <div class="project-name">Project Name</div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="gradient-box"></div>
+            <div class="project-content">
+              <div class="project-number-circle-small"><span>2</span></div>
+              <div class="project-name">Project Name</div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="gradient-box"></div>
+            <div class="project-content">
+              <div class="project-number-circle-small"><span>3</span></div>
+              <div class="project-name">Project Name</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Client Testimonials-->
+      <section id="testimonials-section">
+        <h2>
+          Client testimonials
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.5 36C15.469 27.4501 8.54135 20.5287 0 20.5287C8.56041 20.5287 15.5 13.5762 15.5 5C15.5309 13.5499 22.4586 20.4713 31 20.4713C22.4394 20.4713 15.5 27.4238 15.5 36Z"
+              fill="white"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M28.5 15C28.485 10.863 25.1329 7.5139 21 7.5139C25.1421 7.5139 28.5 4.14977 28.5 0C28.5149 4.13704 31.8671 7.4861 36 7.4861C31.8578 7.4861 28.5 10.8502 28.5 15Z"
+              fill="white"
+            />
+          </svg>
+        </h2>
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <div class="client-info">
+                <div class="client-avatar"></div>
+                <div class="client-details">
+                  <h4>Client Name.</h4>
+                  <p>Product designer</p>
+                </div>
+                <span class="quote-icon"
+                  ><svg
+                    width="44"
+                    height="33"
+                    viewBox="0 0 44 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.0579 22.7327C19.0579 27.7721 15.5877 31.5898 10.307 31.5898C5.02632 31.5898 0.5 27.314 0.5 19.6785C0.5 10.2105 7.59123 2.11694 16.7947 0.589844V6.24009C11.514 7.30905 7.59123 11.1268 7.59123 15.5554C8.49649 14.9445 9.70351 14.4864 11.6649 14.4864C15.5877 14.4864 19.0579 17.3879 19.0579 22.7327ZM43.5 22.7327C43.5 27.7721 39.8789 31.5898 34.5982 31.5898C29.4684 31.5898 24.7912 27.314 24.7912 19.6785C24.7912 10.2105 31.8825 2.11694 41.2368 0.589844V6.24009C35.9561 7.30905 32.0333 11.1268 32.0333 15.4027C32.9386 14.7918 34.2965 14.4864 36.107 14.4864C40.0298 14.4864 43.5 17.3879 43.5 22.7327Z"
+                      fill="url(#paint0_linear_1_180)"
+                      stroke="url(#paint1_linear_1_180)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_1_180"
+                        x1="43.3287"
+                        y1="14.0735"
+                        x2="0.657137"
+                        y2="14.5219"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#7A87FB" />
+                        <stop offset="1" stop-color="#FFD49C" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_1_180"
+                        x1="0.500001"
+                        y1="1.08984"
+                        x2="47"
+                        y2="32.0898"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" />
+                        <stop
+                          offset="0.294339"
+                          stop-color="white"
+                          stop-opacity="0"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+              </div>
+              <p class="testimonial-text">
+                s simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <div class="client-info">
+                <div class="client-avatar"></div>
+                <div class="client-details">
+                  <h4>Client Name.</h4>
+                  <p>Product designer</p>
+                </div>
+                <span class="quote-icon"
+                  ><svg
+                    width="44"
+                    height="33"
+                    viewBox="0 0 44 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.0579 22.7327C19.0579 27.7721 15.5877 31.5898 10.307 31.5898C5.02632 31.5898 0.5 27.314 0.5 19.6785C0.5 10.2105 7.59123 2.11694 16.7947 0.589844V6.24009C11.514 7.30905 7.59123 11.1268 7.59123 15.5554C8.49649 14.9445 9.70351 14.4864 11.6649 14.4864C15.5877 14.4864 19.0579 17.3879 19.0579 22.7327ZM43.5 22.7327C43.5 27.7721 39.8789 31.5898 34.5982 31.5898C29.4684 31.5898 24.7912 27.314 24.7912 19.6785C24.7912 10.2105 31.8825 2.11694 41.2368 0.589844V6.24009C35.9561 7.30905 32.0333 11.1268 32.0333 15.4027C32.9386 14.7918 34.2965 14.4864 36.107 14.4864C40.0298 14.4864 43.5 17.3879 43.5 22.7327Z"
+                      fill="url(#paint0_linear_1_180_2)"
+                      stroke="url(#paint1_linear_1_180_2)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_1_180_2"
+                        x1="43.3287"
+                        y1="14.0735"
+                        x2="0.657137"
+                        y2="14.5219"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#7A87FB" />
+                        <stop offset="1" stop-color="#FFD49C" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_1_180_2"
+                        x1="0.500001"
+                        y1="1.08984"
+                        x2="47"
+                        y2="32.0898"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" />
+                        <stop
+                          offset="0.294339"
+                          stop-color="white"
+                          stop-opacity="0"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+              </div>
+              <p class="testimonial-text">
+                s simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <div class="client-info">
+                <div class="client-avatar"></div>
+                <div class="client-details">
+                  <h4>Client Name.</h4>
+                  <p>Product designer</p>
+                </div>
+                <span class="quote-icon"
+                  ><svg
+                    width="44"
+                    height="33"
+                    viewBox="0 0 44 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.0579 22.7327C19.0579 27.7721 15.5877 31.5898 10.307 31.5898C5.02632 31.5898 0.5 27.314 0.5 19.6785C0.5 10.2105 7.59123 2.11694 16.7947 0.589844V6.24009C11.514 7.30905 7.59123 11.1268 7.59123 15.5554C8.49649 14.9445 9.70351 14.4864 11.6649 14.4864C15.5877 14.4864 19.0579 17.3879 19.0579 22.7327ZM43.5 22.7327C43.5 27.7721 39.8789 31.5898 34.5982 31.5898C29.4684 31.5898 24.7912 27.314 24.7912 19.6785C24.7912 10.2105 31.8825 2.11694 41.2368 0.589844V6.24009C35.9561 7.30905 32.0333 11.1268 32.0333 15.4027C32.9386 14.7918 34.2965 14.4864 36.107 14.4864C40.0298 14.4864 43.5 17.3879 43.5 22.7327Z"
+                      fill="url(#paint0_linear_1_180_3)"
+                      stroke="url(#paint1_linear_1_180_3)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_1_180_3"
+                        x1="43.3287"
+                        y1="14.0735"
+                        x2="0.657137"
+                        y2="14.5219"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#7A87FB" />
+                        <stop offset="1" stop-color="#FFD49C" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_1_180_3"
+                        x1="0.500001"
+                        y1="1.08984"
+                        x2="47"
+                        y2="32.0898"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" />
+                        <stop
+                          offset="0.294339"
+                          stop-color="white"
+                          stop-opacity="0"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+              </div>
+              <p class="testimonial-text">
+                s simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card-inner">
+              <div class="client-info">
+                <div class="client-avatar"></div>
+                <div class="client-details">
+                  <h4>Client Name.</h4>
+                  <p>Product designer</p>
+                </div>
+                <span class="quote-icon"
+                  ><svg
+                    width="44"
+                    height="33"
+                    viewBox="0 0 44 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.0579 22.7327C19.0579 27.7721 15.5877 31.5898 10.307 31.5898C5.02632 31.5898 0.5 27.314 0.5 19.6785C0.5 10.2105 7.59123 2.11694 16.7947 0.589844V6.24009C11.514 7.30905 7.59123 11.1268 7.59123 15.5554C8.49649 14.9445 9.70351 14.4864 11.6649 14.4864C15.5877 14.4864 19.0579 17.3879 19.0579 22.7327ZM43.5 22.7327C43.5 27.7721 39.8789 31.5898 34.5982 31.5898C29.4684 31.5898 24.7912 27.314 24.7912 19.6785C24.7912 10.2105 31.8825 2.11694 41.2368 0.589844V6.24009C35.9561 7.30905 32.0333 11.1268 32.0333 15.4027C32.9386 14.7918 34.2965 14.4864 36.107 14.4864C40.0298 14.4864 43.5 17.3879 43.5 22.7327Z"
+                      fill="url(#paint0_linear_1_180_4)"
+                      stroke="url(#paint1_linear_1_180_4)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_1_180_4"
+                        x1="43.3287"
+                        y1="14.0735"
+                        x2="0.657137"
+                        y2="14.5219"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#7A87FB" />
+                        <stop offset="1" stop-color="#FFD49C" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_1_180_4"
+                        x1="0.500001"
+                        y1="1.08984"
+                        x2="47"
+                        y2="32.0898"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="white" />
+                        <stop
+                          offset="0.294339"
+                          stop-color="white"
+                          stop-opacity="0"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+              </div>
+              <p class="testimonial-text">
+                s simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+      Call to Action (CTA) Section
+    -->
+      <section id="cta-section">
+        <!-- Text Content -->
+        <div class="cta-text-content">
+          <h2>
+            Have idea about project?
+            <svg
+              width="36"
+              height="36"
+              viewBox="0 0 36 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.5 36C15.469 27.4501 8.54135 20.5287 0 20.5287C8.56041 20.5287 15.5 13.5762 15.5 5C15.5309 13.5499 22.4586 20.4713 31 20.4713C22.4394 20.4713 15.5 27.4238 15.5 36Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M28.5 15C28.485 10.863 25.1329 7.5139 21 7.5139C25.1421 7.5139 28.5 4.14977 28.5 0C28.5149 4.13704 31.8671 7.4861 36 7.4861C31.8578 7.4861 28.5 10.8502 28.5 15Z"
+                fill="white"
+              />
+            </svg>
+          </h2>
+          <p>
+            Write anything here something about yourself to showcase what
+            actually you doing or targeting etc.
+          </p>
+          <div class="send-us-wrapper">
+            <button class="hire-me-button">Send us a message</button>
+          </div>
+        </div>
+
+        <!-- Graphic Element -->
+        <div class="cta-graphic-container">
+          <svg
+            width="393"
+            height="393"
+            viewBox="0 0 393 393"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="354.5"
+              y1="392.021"
+              x2="354.5"
+              y2="9.15527e-05"
+              stroke="#404040"
+            />
+            <line
+              x1="274.5"
+              y1="392.021"
+              x2="274.5"
+              y2="9.15527e-05"
+              stroke="#404040"
+            />
+            <line
+              x1="195.5"
+              y1="392.021"
+              x2="195.5"
+              y2="9.15527e-05"
+              stroke="#404040"
+            />
+            <line y1="290.5" x2="392.02" y2="290.5" stroke="#404040" />
+            <line y1="203.5" x2="392.02" y2="203.5" stroke="#404040" />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M195.5 219C195.469 210.45 188.541 203.529 180 203.529C188.56 203.529 195.5 196.576 195.5 188C195.531 196.55 202.459 203.471 211 203.471C202.439 203.471 195.5 210.424 195.5 219Z"
+              fill="white"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M275.5 306C275.469 297.45 268.541 290.529 260 290.529C268.56 290.529 275.5 283.576 275.5 275C275.531 283.55 282.459 290.471 291 290.471C282.439 290.471 275.5 297.424 275.5 306Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <!-- 
+      Footer Section
+    -->
+      <footer id="footer-bar">
+        <!-- Left section: logo and brand name -->
+        <div class="nav-left">
+          <!-- Logo svg-->
+          <svg
+            viewBox="0 0 44 52"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_48_footer"
+                x1="2.5"
+                y1="26"
+                x2="17.9375"
+                y2="26"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_1_48_footer"
+                x1="19.2744"
+                y1="19.7805"
+                x2="29.103"
+                y2="19.7805"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_1_48_footer"
+                x1="19.2744"
+                y1="35.5378"
+                x2="41.5002"
+                y2="35.5378"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#7A87FB" />
+                <stop offset="1" stop-color="#FFD49C" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M17.9375 41C9.41935 41 2.5 34.101 2.5 25.608V11C11.0181 11 17.9375 17.899 17.9375 26.392V41Z"
+              fill="url(#paint0_linear_1_48_footer)"
+            />
+            <path
+              d="M19.2744 28.561V20.7997C19.2744 15.3902 23.6776 11 29.103 11V18.7613C29.103 24.1707 24.6998 28.561 19.2744 28.561Z"
+              fill="url(#paint1_linear_1_48_footer)"
+            />
+            <path
+              d="M41.5002 40.9995H30.2301C24.1756 40.9995 19.2744 36.1128 19.2744 30.0762H30.5446C36.599 30.0762 41.5002 34.9629 41.5002 40.9995Z"
+              fill="url(#paint2_linear_1_48_footer)"
+            />
+          </svg>
+          <!-- Brand name -->
+          <a href="#" class="brand-name">znisa</a>
+        </div>
+
+        <!-- Center section: middle content -->
+        <div class="nav-center-gradient-border">
+          <div class="nav-center-inner">
+            <!-- X button -->
+            <button class="home-button">
+              <svg
+                width="17"
+                height="18"
+                viewBox="0 0 17 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.1175 7.41L16.4463 0H14.9463L9.4525 6.43375L5.0625 0H0L6.6375 9.73L0 17.5H1.5L7.3025 10.705L11.9388 17.5H17.0013L10.1175 7.41ZM8.06375 9.815L7.39125 8.84625L2.04 1.1375H4.34375L8.66125 7.35875L9.33375 8.3275L14.9475 16.415H12.6438L8.06375 9.815Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+
+            <!-- Ball button -->
+            <button class="home-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_237)">
+                  <path
+                    d="M18.3333 10.0001C18.3347 11.0977 18.1186 12.1847 17.6975 13.1984C17.2763 14.212 16.6584 15.1321 15.8796 15.9055C15.1071 16.6766 14.1902 17.2879 13.1814 17.7045C12.1725 18.1211 11.0915 18.3348 10 18.3334C5.3975 18.3334 1.66666 14.6026 1.66666 10.0001C1.66375 7.86333 2.48453 5.80765 3.95833 4.26051C4.73597 3.43992 5.67288 2.78665 6.71172 2.34066C7.75056 1.89468 8.86947 1.66537 10 1.66676C11.0915 1.66534 12.1725 1.87904 13.1814 2.29564C14.1902 2.71223 15.1071 3.32356 15.8796 4.09467C16.6584 4.8681 17.2763 5.7882 17.6975 6.80182C18.1186 7.81543 18.3347 8.90246 18.3333 10.0001Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18.3333 9.99998C17.1175 9.99998 13.7633 9.54165 10.7612 10.8596C7.5 12.2916 5.13875 14.5133 4.10958 15.8946"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.875 2.27271C8.17917 3.47646 11.025 6.54104 12.0833 9.58354C13.1417 12.626 13.5333 16.3669 13.775 17.4315"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M1.73083 8.9583C3.30499 9.0533 7.47208 9.13872 10.1387 7.99997C12.8054 6.86122 15.1 4.76663 15.8871 4.10205M2.29166 13.1721C3.02596 14.9495 4.35029 16.4197 6.04166 17.335"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    D="M1.66666 10.0001C1.66375 7.86332 2.48453 5.80765 3.95833 4.2605C4.73597 3.43992 5.67288 2.78665 6.71172 2.34066C7.75056 1.89468 8.86947 1.66537 10 1.66675M13.3333 2.36009C14.2823 2.77531 15.1458 3.36352 15.8796 4.09467C16.6584 4.8681 17.2763 5.7882 17.6975 6.80182C18.1186 7.81543 18.3347 8.90246 18.3333 10.0001C18.3333 11.0259 18.1479 12.0088 17.8083 12.9168M10 18.3334C11.0915 18.3348 12.1725 18.1211 13.1814 17.7045C14.1902 17.2879 15.1071 16.6766 15.8796 15.9055"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_237">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+
+            <!-- Instagram button -->
+            <button class="home-button">
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.33417 5.83333C7.67113 5.83333 7.03524 6.09672 6.5664 6.56557C6.09756 7.03441 5.83417 7.67029 5.83417 8.33333C5.83417 8.99637 6.09756 9.63226 6.5664 10.1011C7.03524 10.5699 7.67113 10.8333 8.33417 10.8333C8.99721 10.8333 9.63309 10.5699 10.1019 10.1011C10.5708 9.63226 10.8342 8.99637 10.8342 8.33333C10.8342 7.67029 10.5708 7.03441 10.1019 6.56557C9.63309 6.09672 8.99721 5.83333 8.33417 5.83333ZM8.33417 4.16667C9.43924 4.16667 10.499 4.60565 11.2804 5.38705C12.0618 6.16846 12.5008 7.22826 12.5008 8.33333C12.5008 9.4384 12.0618 10.4982 11.2804 11.2796C10.499 12.061 9.43924 12.5 8.33417 12.5C7.2291 12.5 6.16929 12.061 5.38789 11.2796C4.60649 10.4982 4.1675 9.4384 4.1675 8.33333C4.1675 7.22826 4.60649 6.16846 5.38789 5.38705C6.16929 4.60565 7.2291 4.16667 8.33417 4.16667ZM13.7508 3.95833C13.7508 4.2346 13.6411 4.49955 13.4457 4.6949C13.2504 4.89025 12.9854 5 12.7092 5C12.4329 5 12.1679 4.89025 11.9726 4.6949C11.7772 4.49955 11.6675 4.2346 11.6675 3.95833C11.6675 3.68207 11.7772 3.41711 11.9726 3.22176C12.1679 3.02641 12.4329 2.91667 12.7092 2.91667C12.9854 2.91667 13.2504 3.02641 13.4457 3.22176C13.6411 3.41711 13.7508 3.68207 13.7508 3.95833ZM8.33417 1.66667C6.2725 1.66667 5.93583 1.6725 4.97667 1.715C4.32333 1.74583 3.885 1.83333 3.47833 1.99167C3.13801 2.11661 2.83034 2.31688 2.57833 2.5775C2.31751 2.8295 2.11696 3.13715 1.99167 3.4775C1.83333 3.88583 1.74583 4.32333 1.71583 4.97583C1.6725 5.89583 1.66667 6.2175 1.66667 8.33333C1.66667 10.3958 1.6725 10.7317 1.715 11.6908C1.74583 12.3433 1.83333 12.7825 1.99083 13.1883C2.1325 13.5508 2.29917 13.8117 2.57583 14.0883C2.85667 14.3683 3.1175 14.5358 3.47583 14.6742C3.8875 14.8333 4.32583 14.9217 4.97583 14.9517C5.89583 14.995 6.2175 15 8.33333 15C10.3958 15 10.7317 14.9942 11.6908 14.9517C12.3425 14.9208 12.7808 14.8333 13.1883 14.6758C13.5283 14.5503 13.8359 14.3501 14.0883 14.09C14.3692 13.81 14.5367 13.5492 14.675 13.19C14.8333 12.78 14.9217 12.3417 14.9517 11.69C14.995 10.7708 15 10.4483 15 8.33333C15 6.27167 14.9942 5.935 14.9517 4.97583C14.9208 4.32417 14.8325 3.88417 14.675 3.4775C14.5494 3.13751 14.3492 2.82998 14.0892 2.5775C13.8373 2.31654 13.5296 2.11597 13.1892 1.99083C12.7808 1.8325 12.3425 1.745 11.6908 1.715C10.7717 1.67167 10.45 1.66667 8.33333 1.66667M8.33333 0C10.5975 0 10.88 0.00833328 11.7692 0.05C12.6558 0.0916666 13.2608 0.230833 13.7917 0.4375C14.3417 0.649167 14.805 0.935833 15.2683 1.39833C15.6921 1.81491 16.02 2.31882 16.2292 2.875C16.435 3.40583 16.575 4.01083 16.6167 4.89833C16.6558 5.78667 16.6667 6.06917 16.6667 8.33333C16.6667 10.5975 16.6583 10.88 16.6167 11.7683C16.575 12.6558 16.435 13.26 16.2292 13.7917C16.0205 14.3481 15.6926 14.8522 15.2683 15.2683C14.8516 15.6919 14.3478 16.0198 13.7917 16.2292C13.2608 16.435 12.6558 16.575 11.7692 16.6167C10.88 16.6558 10.5975 16.6667 8.33333 16.6667C6.06917 16.6667 5.78667 16.6583 4.8975 16.6167C4.01083 16.575 3.40667 16.435 2.875 16.2292C2.3186 16.0204 1.81461 15.6925 1.39833 15.2683C0.974526 14.8518 0.646633 14.3479 0.4375 13.7917C0.230833 13.2608 0.0916666 12.6558 0.05 11.7683C0.00999995 10.88 0 10.5975 0 8.33333C0 6.06917 0.00833328 5.78667 0.05 4.89833C0.0916666 4.01083 0.230833 3.40667 0.4375 2.875C0.64603 2.31848 0.974003 1.81443 1.39833 1.39833C1.81473 0.974359 2.31869 0.646441 2.875 0.4375C3.40583 0.230833 4.01 0.0916666 4.8975 0.05C5.7875 0.0108333 6.07 0 8.33417 0"
+                  fill="white"
+                />
+              </svg>
+            </button>
+
+            <!-- Facebook button -->
+            <button class="home-button">
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1.66667 8.33333C1.66679 7.05038 2.03709 5.7947 2.73316 4.71699C3.42922 3.63927 4.42147 2.78529 5.59084 2.25751C6.76021 1.72974 8.05703 1.55059 9.3257 1.74156C10.5944 1.93254 11.781 2.48552 12.7432 3.33416C13.7053 4.1828 14.4022 5.29105 14.7501 6.52592C15.0981 7.7608 15.0823 9.06984 14.7047 10.296C14.3272 11.5221 13.6038 12.6133 12.6215 13.4385C11.6391 14.2637 10.4396 14.788 9.16667 14.9483V10H10.8333C11.0543 10 11.2663 9.9122 11.4226 9.75592C11.5789 9.59964 11.6667 9.38768 11.6667 9.16667C11.6667 8.94565 11.5789 8.73369 11.4226 8.57741C11.2663 8.42113 11.0543 8.33333 10.8333 8.33333H9.16667V6.66667C9.16667 6.44565 9.25446 6.23369 9.41074 6.07741C9.56702 5.92113 9.77899 5.83333 10 5.83333H10.4167C10.6377 5.83333 10.8496 5.74554 11.0059 5.58926C11.1622 5.43297 11.25 5.22101 11.25 5C11.25 4.77899 11.1622 4.56702 11.0059 4.41074C10.8496 4.25446 10.6377 4.16667 10.4167 4.16667H10C9.33696 4.16667 8.70107 4.43006 8.23223 4.8989C7.76339 5.36774 7.5 6.00363 7.5 6.66667V8.33333H5.83333C5.61232 8.33333 5.40036 8.42113 5.24408 8.57741C5.0878 8.73369 5 8.94565 5 9.16667C5 9.38768 5.0878 9.59964 5.24408 9.75592C5.40036 9.9122 5.61232 10 5.83333 10H7.5V14.9483C5.88892 14.7452 4.40735 13.9611 3.33334 12.7431C2.25932 11.5252 1.66669 9.95718 1.66667 8.33333ZM8.33333 16.6667C12.9358 16.6667 16.6667 12.9358 16.6667 8.33333C16.6667 3.73083 12.9358 0 8.33333 0C3.73083 0 0 3.73083 0 8.33333C0 12.9358 3.73083 16.6667 8.33333 16.6667Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right section: login and profile -->
+        <div id="nav-right">
+          <!-- Hire me button -->
+          <div class="hire-me-wrapper">
+            <button class="hire-me-button">Hire me</button>
+          </div>
+          <!-- Profile icon -->
+          <div class="profile-icon-gradient-border">
+            <div class="profile-icon-inner">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

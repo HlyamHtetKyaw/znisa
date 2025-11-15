@@ -1,0 +1,83 @@
+/* --- testimonial.css --- */
+.testimonials-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  max-width: 850px;
+}
+
+.testimonial-card {
+  padding: 2rem;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #000000 0,
+        #000000 17px,
+        transparent 17px
+      )
+      0% 0%/20px 20px no-repeat,
+    radial-gradient(circle at 0 100%, #000000 0, #000000 17px, transparent 17px)
+      100% 0%/20px 20px no-repeat,
+    radial-gradient(circle at 100% 0, #000000 0, #000000 17px, transparent 17px)
+      0% 100%/20px 20px no-repeat,
+    radial-gradient(circle at 0 0, #000000 0, #000000 17px, transparent 17px)
+      100% 100%/20px 20px no-repeat,
+    linear-gradient(#000000, #000000) 50% 50% / calc(100% - 6px)
+      calc(100% - 40px) no-repeat,
+    linear-gradient(#000000, #000000) 50% 50% / calc(100% - 40px)
+      calc(100% - 6px) no-repeat,
+    linear-gradient(315deg, transparent 50%, #7d7afb 75%, #ffd49c 100%),
+    linear-gradient(
+      315deg,
+      transparent 12%,
+      rgba(0, 1, 1, 0) 31%,
+      transparent 91%,
+      transparent 81%,
+      #7d7afb 100%
+    );
+  border-radius: 20px;
+}
+
+.testimonial-card-inner {
+  position: relative;
+  z-index: 1;
+  background: black;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.client-avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  background-color: #374151;
+  flex-shrink: 0;
+}
+
+.client-details h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.quote-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+}
+.client-details p {
+  font-size: 0.875rem;
+  color: #d1d5db;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  max-width: 90%;
+}
